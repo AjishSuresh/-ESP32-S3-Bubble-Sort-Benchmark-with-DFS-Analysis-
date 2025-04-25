@@ -1,0 +1,2 @@
+# -ESP32-S3-Bubble-Sort-Benchmark-with-DFS-Analysis-
+Optimizing Energy Consumption and Real-Time Performance in IoT-Driven Embedded Systems: A Scheduling Framework for Single, Dual, and Distributed Core Microcontroller (ESP32-S3) - Here its 1st part of this project and this contains a benchmark test for the ESP32-S3, comparing the performance of the bubble sort algorithm with and without DFS enabled
