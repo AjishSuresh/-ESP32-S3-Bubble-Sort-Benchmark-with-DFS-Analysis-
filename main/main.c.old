@@ -1,0 +1,49 @@
+// #include <stdio.h>
+// #include <string.h>
+// #include "freertos/FreeRTOS.h"
+// #include "freertos/task.h"
+// #include "driver/spi_master.h"
+// #include "esp_timer.h"
+// #include "esp_log.h"
+
+// #define TAG "ESP32"
+
+// int task1_time = 0;
+// int task2_time = 0;
+
+// void task1(void *param){
+
+//     int start_time = esp_timer_get_time();
+//     static int count = 0;
+//     for(int i =0; i<10000 ; i++){
+//         count += i;
+//     }
+//     int end_time = esp_timer_get_time();
+
+//     task1_time = end_time - start_time;
+//     ESP_LOGI(TAG, "task1 =,%d \n",task1_time);
+
+// }
+
+// void task2(void *param){
+
+//     int start_time = esp_timer_get_time();
+//     static int count = 0;
+//     for(int i =0; i<10000 ; i++){
+//         count += i;
+//     }
+//     int end_time = esp_timer_get_time();
+
+//     task2_time = end_time - start_time;
+//     ESP_LOGI(TAG, "task2 =,%d \n",task2_time);
+
+// }
+
+// void app_main(){
+//     xTaskCreatePinnedToCore(task1,"t1",2048,NULL,1,NULL,0);
+//     xTaskCreatePinnedToCore(task1,"t1",2048,NULL,1,NULL,0);
+
+//     while(1){
+
+//     }
+// }
